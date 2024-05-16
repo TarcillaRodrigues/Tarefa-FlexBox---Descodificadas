@@ -2,23 +2,45 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
+
 
 header{
     background-color: blue;
     color: white;
-    text-align: center;
+    text-align: left;
+    height: 100px;
 }
 
 main{
-    background-color: green;
+    
     color: white;
 }
 
-.main-content{
+.container{
     display: flex;
+    gap: 10px; /*espaço entre as div*/
+    /* height: 300px; */
+    /* flex-direction: wrap; */
+    /* justify-content: center; */
+    align-items: center;
+    background-color: green;
+    flex-wrap: wrap;
+    padding: 100px;
 }
 
+.item{
+    
+    width: 200px;
+    height: 200px;
+    background-color: rgb(74, 145, 74);
+   
+}
+
+.meio{
+    display: flex;
+}
 .sidebar{
     background-color: red;
     color: white;
@@ -29,5 +51,7 @@ footer{
     background-color: blue;
     color: white;
     text-align: center;
+    text-align: left;
+    height: 100px;
 }
 
